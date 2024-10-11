@@ -1,0 +1,11 @@
+{application,plug_checkup,
+             [{config_mtime,1728578494},
+              {optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,plug]},
+              {description,"PlugCheckup provides a Plug for adding simple health checks to your app."},
+              {modules,['Elixir.PlugCheckup','Elixir.PlugCheckup.Check',
+                        'Elixir.PlugCheckup.Check.Formatter',
+                        'Elixir.PlugCheckup.Check.Runner',
+                        'Elixir.PlugCheckup.Options']},
+              {registered,[]},
+              {vsn,"0.6.0"}]}.
